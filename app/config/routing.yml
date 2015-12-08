@@ -1,0 +1,11 @@
+app:
+    resource: "@AppBundle/Controller/"
+    type:     annotation
+
+server:
+    resource: "@ServerBundle/Controller/"
+    type:     annotation
+
+client:
+    resource: "@ClientBundle/Controller/"
+    type:     annotation
